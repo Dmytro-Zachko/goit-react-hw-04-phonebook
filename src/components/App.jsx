@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Form } from "./Form/Form";
 import { ContactList } from "./ContactList/ContactList";
 import Contacts from '../json/Contacts.json'
 import { Filter } from "./Filter/Filter";
