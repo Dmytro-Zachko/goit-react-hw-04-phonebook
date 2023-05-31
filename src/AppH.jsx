@@ -6,7 +6,7 @@ import { FormHoocks } from "components/Form/FormHoocks";
 import Contacts from '../src/json/Contacts.json';
 
 
-export const AppH = ({ }) => {
+export const AppH = () => {
     const [filter, setFilter] = useState('')
     const [contacts, setContacts] = useState(() => JSON.parse(window.localStorage.getItem('contacts')) ?? Contacts)
     

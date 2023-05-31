@@ -14,8 +14,9 @@ export const FormHoocks = ({contacts, addContact}) => {
         case 'number':
                setNumber(value);    
             break;
-           case 'name':
-           setName(value)    
+          case 'name':
+            setName(value);
+            break;
            
         default:
             return;
