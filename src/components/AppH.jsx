@@ -3,7 +3,7 @@ import { ContactList } from "components/ContactList/ContactList";
 import { Filter } from "components/Filter/Filter";
 import { Section } from "components/Section/Section";
 import { FormHoocks } from "components/Form/FormHoocks";
-import Contacts from '../src/json/Contacts.json';
+import Contacts from '../json/Contacts.json';
 
 
 export const AppH = () => {
